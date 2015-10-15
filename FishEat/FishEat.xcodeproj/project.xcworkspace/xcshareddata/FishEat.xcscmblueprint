@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5D39456099FAB60445CB079CD7A48835C4A7E7B5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5D39456099FAB60445CB079CD7A48835C4A7E7B5" : 0,
+    "8112B4F0BF4E992F6AC8813329B449069B8C3009" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8A5E041F-8FE8-4A1E-9ABF-28D18B19DFB6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5D39456099FAB60445CB079CD7A48835C4A7E7B5" : "FishEat\/",
+    "8112B4F0BF4E992F6AC8813329B449069B8C3009" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FishEat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FishEat\/FishEat.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/FujitaRyota\/FishEat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5D39456099FAB60445CB079CD7A48835C4A7E7B5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/FujitaRyota\/Android-Tile-Based-Game-Training.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8112B4F0BF4E992F6AC8813329B449069B8C3009"
+    }
+  ]
+}
