@@ -9,11 +9,16 @@
 #import <UIKit/UIKit.h>
 #import <CoreMotion/CoreMotion.h>
 
-@interface ViewController : UIViewController
+//UIAccelerometerからの通知を受けるため UIAccelerometerDelegateプロトコルを実装
+@interface ViewController : UIViewController <UIAccelerometerDelegate> {
+@private
+    UIImageView* imageView_;
+    UIAccelerationValue speedX_;
+    UIAccelerationValue speedY_;
+}
 
 @property IBOutlet UILabel* xLabel;
 @property IBOutlet UILabel* yLabel;
-@property IBOutlet UILabel* zLabel;
 @property IBOutlet UIImageView* myChara;
 
 @end
