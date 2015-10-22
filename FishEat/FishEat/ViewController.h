@@ -18,6 +18,7 @@
 @property IBOutlet UILabel* xLabel;
 @property IBOutlet UILabel* yLabel;
 @property IBOutlet UIImageView* myChara;
+@property IBOutlet UIImageView* enemy01;
 
 @end
 
