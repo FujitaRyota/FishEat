@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FishEat/ViewController.m"
-            timestampString = "467174798.242346"
+            timestampString = "467611676.055775"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "-setupAccelerometer"
             landmarkType = "5">
          </BreakpointContent>

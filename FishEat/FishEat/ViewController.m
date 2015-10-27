@@ -18,6 +18,11 @@
     
     int x;
     int y;
+    
+    int score;
+    int lvUP;
+    
+    int i;
 }
 
 - (void)viewDidLoad {
@@ -54,9 +59,24 @@
             
             // 自キャラと敵が重なり合ったか判定
             if (CGRectIntersectsRect(_myChara.frame, _enemy01.frame)) {
-                NSLog(@"捕食");
-                x += 25;
-                y += 2;
+                i += 1;
+                NSLog(@"捕食%d", i);
+                x += 50;
+                y += 50;
+                
+                score += 1;
+                
+                if (score / 50 == 0) {
+                    NSLog(@"%d",score);
+                    _myChara.image = [UIImage imageNamed:@"testball01.png"];
+                    if (score / 150 == 0) {
+                        _myChara.image = [UIImage imageNamed:@"testball02.png"];
+                        if (score / 500 == 0) {
+                            _myChara.image = [UIImage imageNamed:@"testball03.png"];
+                        }
+                    }
+                }
+                
                 _enemy01.center = CGPointMake(x, y);
             }
             

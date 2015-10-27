@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A39EF42D1BDF1E3500B306A3 /* testball01.png in Resources */ = {isa = PBXBuildFile; fileRef = A39EF42C1BDF1E3500B306A3 /* testball01.png */; };
+		A39EF4301BDF1F0200B306A3 /* testball02.png in Resources */ = {isa = PBXBuildFile; fileRef = A39EF42E1BDF1F0200B306A3 /* testball02.png */; };
+		A39EF4311BDF1F0200B306A3 /* testball03.png in Resources */ = {isa = PBXBuildFile; fileRef = A39EF42F1BDF1F0200B306A3 /* testball03.png */; };
 		A3D567661BD7362600CD77F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D567651BD7362600CD77F2 /* UIKit.framework */; };
 		A3D567681BD7363600CD77F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D567671BD7363600CD77F2 /* Foundation.framework */; };
 		A3D5676A1BD7364400CD77F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D567691BD7364400CD77F2 /* CoreGraphics.framework */; };
-		A3D567701BD7382700CD77F2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D5676B1BD7382700CD77F2 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
-		A3D567711BD7382700CD77F2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D5676C1BD7382700CD77F2 /* Default.png */; settings = {ASSET_TAGS = (); }; };
-		A3D567721BD7382700CD77F2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D5676D1BD7382700CD77F2 /* Default@2x.png */; settings = {ASSET_TAGS = (); }; };
-		A3D567731BD7382700CD77F2 /* UIAccelerometerBallSample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3D5676E1BD7382700CD77F2 /* UIAccelerometerBallSample-Info.plist */; settings = {ASSET_TAGS = (); }; };
-		A3D567751BD7383400CD77F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3D567741BD7383400CD77F2 /* InfoPlist.strings */; settings = {ASSET_TAGS = (); }; };
+		A3D567701BD7382700CD77F2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D5676B1BD7382700CD77F2 /* Default-568h@2x.png */; };
+		A3D567711BD7382700CD77F2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D5676C1BD7382700CD77F2 /* Default.png */; };
+		A3D567721BD7382700CD77F2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D5676D1BD7382700CD77F2 /* Default@2x.png */; };
+		A3D567731BD7382700CD77F2 /* UIAccelerometerBallSample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3D5676E1BD7382700CD77F2 /* UIAccelerometerBallSample-Info.plist */; };
+		A3D567751BD7383400CD77F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3D567741BD7383400CD77F2 /* InfoPlist.strings */; };
 		A3E828311BCF81700021DAAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E828301BCF81700021DAAE /* main.m */; };
 		A3E828341BCF81700021DAAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E828331BCF81700021DAAE /* AppDelegate.m */; };
 		A3E828371BCF81700021DAAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E828361BCF81700021DAAE /* ViewController.m */; };
@@ -24,8 +27,8 @@
 		A3E8284A1BCF81700021DAAE /* FishEatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E828491BCF81700021DAAE /* FishEatTests.m */; };
 		A3E828551BCF81700021DAAE /* FishEatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E828541BCF81700021DAAE /* FishEatUITests.m */; };
 		A3E828631BCF81BC0021DAAE /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E828621BCF81BC0021DAAE /* CoreMotion.framework */; };
-		A3E828681BCF829B0021DAAE /* cat001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3E828661BCF829B0021DAAE /* cat001.jpg */; settings = {ASSET_TAGS = (); }; };
-		A3E828691BCF829B0021DAAE /* eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E828671BCF829B0021DAAE /* eyes.png */; settings = {ASSET_TAGS = (); }; };
+		A3E828681BCF829B0021DAAE /* cat001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3E828661BCF829B0021DAAE /* cat001.jpg */; };
+		A3E828691BCF829B0021DAAE /* eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E828671BCF829B0021DAAE /* eyes.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A39EF42C1BDF1E3500B306A3 /* testball01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testball01.png; sourceTree = "<group>"; };
+		A39EF42E1BDF1F0200B306A3 /* testball02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testball02.png; sourceTree = "<group>"; };
+		A39EF42F1BDF1F0200B306A3 /* testball03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testball03.png; sourceTree = "<group>"; };
 		A3D567651BD7362600CD77F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3D567671BD7363600CD77F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3D567691BD7364400CD77F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -178,6 +184,9 @@
 		A3E8286A1BCF84C70021DAAE /* images */ = {
 			isa = PBXGroup;
 			children = (
+				A39EF42E1BDF1F0200B306A3 /* testball02.png */,
+				A39EF42F1BDF1F0200B306A3 /* testball03.png */,
+				A39EF42C1BDF1E3500B306A3 /* testball01.png */,
 				A3E828661BCF829B0021DAAE /* cat001.jpg */,
 				A3E828671BCF829B0021DAAE /* eyes.png */,
 			);
@@ -305,9 +314,12 @@
 			files = (
 				A3E8283F1BCF81700021DAAE /* LaunchScreen.storyboard in Resources */,
 				A3D567731BD7382700CD77F2 /* UIAccelerometerBallSample-Info.plist in Resources */,
+				A39EF4301BDF1F0200B306A3 /* testball02.png in Resources */,
 				A3E828691BCF829B0021DAAE /* eyes.png in Resources */,
 				A3D567721BD7382700CD77F2 /* Default@2x.png in Resources */,
+				A39EF42D1BDF1E3500B306A3 /* testball01.png in Resources */,
 				A3D567711BD7382700CD77F2 /* Default.png in Resources */,
+				A39EF4311BDF1F0200B306A3 /* testball03.png in Resources */,
 				A3E8283C1BCF81700021DAAE /* Assets.xcassets in Resources */,
 				A3E828681BCF829B0021DAAE /* cat001.jpg in Resources */,
 				A3D567701BD7382700CD77F2 /* Default-568h@2x.png in Resources */,
