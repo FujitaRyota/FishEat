@@ -61,23 +61,28 @@
             if (CGRectIntersectsRect(_myChara.frame, _enemy01.frame)) {
                 i += 1;
                 NSLog(@"捕食%d", i);
-                x += 50;
-                y += 50;
+                x += 15;
+                y += 5;
                 
                 score += 1;
-                
-                if (score / 50 == 0) {
-                    NSLog(@"%d",score);
-                    _myChara.image = [UIImage imageNamed:@"testball01.png"];
-                    if (score / 150 == 0) {
-                        _myChara.image = [UIImage imageNamed:@"testball02.png"];
-                        if (score / 500 == 0) {
-                            _myChara.image = [UIImage imageNamed:@"testball03.png"];
-                        }
-                    }
+                if (i / 5 == 1) {
+                    lvUP += 1;
+                    i = 0;
                 }
                 
+                NSLog(@"NowLv.%d", lvUP);
+                if (lvUP == 2) {
+                    _myChara.image = [UIImage imageNamed:@"testball01.png"];
+                }
+                if (lvUP == 3) {
+                    _myChara.image = [UIImage imageNamed:@"testball02.png"];
+                }
+                if (lvUP == 4) {
+                    _myChara.image = [UIImage imageNamed:@"testball03.png"];
+                }
                 _enemy01.center = CGPointMake(x, y);
+                
+                NSLog(@"NowScore.%d", score);
             }
             
             //端にあたったら跳ね返る処理
