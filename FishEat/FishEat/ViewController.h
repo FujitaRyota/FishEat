@@ -17,8 +17,23 @@
 
 @property IBOutlet UILabel* xLabel;
 @property IBOutlet UILabel* yLabel;
+@property IBOutlet UILabel* scoreLabel;
 @property IBOutlet UIImageView* myChara;
 @property IBOutlet UIImageView* enemy01;
+@property IBOutlet UIImageView* enemy01_a;
+@property IBOutlet UIImageView* enemy01_b;
+@property IBOutlet UIImageView* enemy01_c;
+@property IBOutlet UIImageView* enemy01_d;
+@property IBOutlet UIImageView* enemy02;
+@property IBOutlet UIImageView* enemy02_a;
+@property IBOutlet UIImageView* enemy02_b;
+@property IBOutlet UIImageView* enemy02_c;
+@property IBOutlet UIImageView* enemy03;
+@property IBOutlet UIImageView* enemy03_a;
+@property IBOutlet UIImageView* enemy03_b;
+@property IBOutlet UIImageView* enemy04;
+@property IBOutlet UIImageView* enemy04_a;
+@property IBOutlet UIImageView* enemy05;
 
 @end
 
