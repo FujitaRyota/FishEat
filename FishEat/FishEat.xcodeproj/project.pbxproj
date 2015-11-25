@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A39EF42D1BDF1E3500B306A3 /* testball01.png in Resources */ = {isa = PBXBuildFile; fileRef = A39EF42C1BDF1E3500B306A3 /* testball01.png */; };
-		A39EF4301BDF1F0200B306A3 /* testball02.png in Resources */ = {isa = PBXBuildFile; fileRef = A39EF42E1BDF1F0200B306A3 /* testball02.png */; };
-		A39EF4311BDF1F0200B306A3 /* testball03.png in Resources */ = {isa = PBXBuildFile; fileRef = A39EF42F1BDF1F0200B306A3 /* testball03.png */; };
+		A304FACF1BFD656E009F8562 /* Sea01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A304FACE1BFD656E009F8562 /* Sea01.jpg */; };
+		A304FAD51BFD6ED2009F8562 /* fish0.png in Resources */ = {isa = PBXBuildFile; fileRef = A304FAD01BFD6ED2009F8562 /* fish0.png */; };
+		A304FAD61BFD6ED2009F8562 /* fish1.png in Resources */ = {isa = PBXBuildFile; fileRef = A304FAD11BFD6ED2009F8562 /* fish1.png */; };
+		A304FAD71BFD6ED2009F8562 /* fish2.png in Resources */ = {isa = PBXBuildFile; fileRef = A304FAD21BFD6ED2009F8562 /* fish2.png */; };
+		A304FAD81BFD6ED2009F8562 /* fish3.png in Resources */ = {isa = PBXBuildFile; fileRef = A304FAD31BFD6ED2009F8562 /* fish3.png */; };
+		A304FAD91BFD6ED2009F8562 /* plankton.png in Resources */ = {isa = PBXBuildFile; fileRef = A304FAD41BFD6ED2009F8562 /* plankton.png */; };
+		A304FADB1BFD7524009F8562 /* Enemy_bs.png in Resources */ = {isa = PBXBuildFile; fileRef = A304FADA1BFD7524009F8562 /* Enemy_bs.png */; };
+		A3275E331BF587770095C2B9 /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3275E321BF587770095C2B9 /* GameOverViewController.m */; };
+		A36515821C05385100CACEBB /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36515811C05385100CACEBB /* TitleViewController.m */; };
 		A3D567661BD7362600CD77F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D567651BD7362600CD77F2 /* UIKit.framework */; };
 		A3D567681BD7363600CD77F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D567671BD7363600CD77F2 /* Foundation.framework */; };
 		A3D5676A1BD7364400CD77F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D567691BD7364400CD77F2 /* CoreGraphics.framework */; };
@@ -27,8 +33,6 @@
 		A3E8284A1BCF81700021DAAE /* FishEatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E828491BCF81700021DAAE /* FishEatTests.m */; };
 		A3E828551BCF81700021DAAE /* FishEatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E828541BCF81700021DAAE /* FishEatUITests.m */; };
 		A3E828631BCF81BC0021DAAE /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E828621BCF81BC0021DAAE /* CoreMotion.framework */; };
-		A3E828681BCF829B0021DAAE /* cat001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3E828661BCF829B0021DAAE /* cat001.jpg */; };
-		A3E828691BCF829B0021DAAE /* eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E828671BCF829B0021DAAE /* eyes.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +53,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A39EF42C1BDF1E3500B306A3 /* testball01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testball01.png; sourceTree = "<group>"; };
-		A39EF42E1BDF1F0200B306A3 /* testball02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testball02.png; sourceTree = "<group>"; };
-		A39EF42F1BDF1F0200B306A3 /* testball03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testball03.png; sourceTree = "<group>"; };
+		A304FACE1BFD656E009F8562 /* Sea01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sea01.jpg; sourceTree = "<group>"; };
+		A304FAD01BFD6ED2009F8562 /* fish0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish0.png; sourceTree = "<group>"; };
+		A304FAD11BFD6ED2009F8562 /* fish1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish1.png; sourceTree = "<group>"; };
+		A304FAD21BFD6ED2009F8562 /* fish2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish2.png; sourceTree = "<group>"; };
+		A304FAD31BFD6ED2009F8562 /* fish3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish3.png; sourceTree = "<group>"; };
+		A304FAD41BFD6ED2009F8562 /* plankton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plankton.png; sourceTree = "<group>"; };
+		A304FADA1BFD7524009F8562 /* Enemy_bs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Enemy_bs.png; sourceTree = "<group>"; };
+		A3275E311BF587770095C2B9 /* GameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverViewController.h; sourceTree = "<group>"; };
+		A3275E321BF587770095C2B9 /* GameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverViewController.m; sourceTree = "<group>"; };
+		A36515801C05385100CACEBB /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
+		A36515811C05385100CACEBB /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
 		A3D567651BD7362600CD77F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3D567671BD7363600CD77F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3D567691BD7364400CD77F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -78,8 +90,6 @@
 		A3E828541BCF81700021DAAE /* FishEatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishEatUITests.m; sourceTree = "<group>"; };
 		A3E828561BCF81700021DAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3E828621BCF81BC0021DAAE /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		A3E828661BCF829B0021DAAE /* cat001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat001.jpg; path = ../cat001.jpg; sourceTree = "<group>"; };
-		A3E828671BCF829B0021DAAE /* eyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eyes.png; path = ../eyes.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +148,12 @@
 			children = (
 				A3E828321BCF81700021DAAE /* AppDelegate.h */,
 				A3E828331BCF81700021DAAE /* AppDelegate.m */,
+				A36515801C05385100CACEBB /* TitleViewController.h */,
+				A36515811C05385100CACEBB /* TitleViewController.m */,
 				A3E828351BCF81700021DAAE /* ViewController.h */,
 				A3E828361BCF81700021DAAE /* ViewController.m */,
+				A3275E311BF587770095C2B9 /* GameOverViewController.h */,
+				A3275E321BF587770095C2B9 /* GameOverViewController.m */,
 				A3E828381BCF81700021DAAE /* Main.storyboard */,
 				A3E8283B1BCF81700021DAAE /* Assets.xcassets */,
 				A3E8283D1BCF81700021DAAE /* LaunchScreen.storyboard */,
@@ -184,11 +198,13 @@
 		A3E8286A1BCF84C70021DAAE /* images */ = {
 			isa = PBXGroup;
 			children = (
-				A39EF42E1BDF1F0200B306A3 /* testball02.png */,
-				A39EF42F1BDF1F0200B306A3 /* testball03.png */,
-				A39EF42C1BDF1E3500B306A3 /* testball01.png */,
-				A3E828661BCF829B0021DAAE /* cat001.jpg */,
-				A3E828671BCF829B0021DAAE /* eyes.png */,
+				A304FAD01BFD6ED2009F8562 /* fish0.png */,
+				A304FAD11BFD6ED2009F8562 /* fish1.png */,
+				A304FAD21BFD6ED2009F8562 /* fish2.png */,
+				A304FAD31BFD6ED2009F8562 /* fish3.png */,
+				A304FAD41BFD6ED2009F8562 /* plankton.png */,
+				A304FACE1BFD656E009F8562 /* Sea01.jpg */,
+				A304FADA1BFD7524009F8562 /* Enemy_bs.png */,
 			);
 			name = images;
 			path = FishEat;
@@ -313,15 +329,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3E8283F1BCF81700021DAAE /* LaunchScreen.storyboard in Resources */,
+				A304FADB1BFD7524009F8562 /* Enemy_bs.png in Resources */,
+				A304FAD81BFD6ED2009F8562 /* fish3.png in Resources */,
+				A304FAD91BFD6ED2009F8562 /* plankton.png in Resources */,
 				A3D567731BD7382700CD77F2 /* UIAccelerometerBallSample-Info.plist in Resources */,
-				A39EF4301BDF1F0200B306A3 /* testball02.png in Resources */,
-				A3E828691BCF829B0021DAAE /* eyes.png in Resources */,
 				A3D567721BD7382700CD77F2 /* Default@2x.png in Resources */,
-				A39EF42D1BDF1E3500B306A3 /* testball01.png in Resources */,
+				A304FAD61BFD6ED2009F8562 /* fish1.png in Resources */,
+				A304FAD51BFD6ED2009F8562 /* fish0.png in Resources */,
 				A3D567711BD7382700CD77F2 /* Default.png in Resources */,
-				A39EF4311BDF1F0200B306A3 /* testball03.png in Resources */,
+				A304FACF1BFD656E009F8562 /* Sea01.jpg in Resources */,
 				A3E8283C1BCF81700021DAAE /* Assets.xcassets in Resources */,
-				A3E828681BCF829B0021DAAE /* cat001.jpg in Resources */,
+				A304FAD71BFD6ED2009F8562 /* fish2.png in Resources */,
 				A3D567701BD7382700CD77F2 /* Default-568h@2x.png in Resources */,
 				A3D567751BD7383400CD77F2 /* InfoPlist.strings in Resources */,
 				A3E8283A1BCF81700021DAAE /* Main.storyboard in Resources */,
@@ -349,7 +367,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3275E331BF587770095C2B9 /* GameOverViewController.m in Sources */,
 				A3E828371BCF81700021DAAE /* ViewController.m in Sources */,
+				A36515821C05385100CACEBB /* TitleViewController.m in Sources */,
 				A3E828341BCF81700021DAAE /* AppDelegate.m in Sources */,
 				A3E828311BCF81700021DAAE /* main.m in Sources */,
 			);

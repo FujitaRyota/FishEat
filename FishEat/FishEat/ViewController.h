@@ -34,6 +34,8 @@
 @property IBOutlet UIImageView* enemy04;
 @property IBOutlet UIImageView* enemy04_a;
 @property IBOutlet UIImageView* enemy05;
+@property IBOutlet UIImageView* enemy_boss;
+@property IBOutlet UIImageView* backimage1;
 
 @end
 
