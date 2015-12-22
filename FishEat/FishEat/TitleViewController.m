@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [[SEManager sharedManager] allStopAudio];
+    [[SEManager sharedManager] playSound:@"water02.mp3"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,6 +39,7 @@
 
 -(IBAction)GameStart:(id)sender{
     [self performSegueWithIdentifier:@"toGameView" sender:self];
+    [[SEManager sharedManager] playSound:@"GameStart.mp3"];
 }
 
 @end

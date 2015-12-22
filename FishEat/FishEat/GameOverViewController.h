@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <Social/Social.h>
 
-@interface GameOverViewController : UIViewController
+@interface GameOverViewController : UIViewController{
+    NSInteger* _inheritScore;
+}
 
+@property (nonatomic) NSInteger* inheritScore;
 @property IBOutlet UIButton* Continue;
+@property IBOutlet UILabel* finishScore;
 
 @end

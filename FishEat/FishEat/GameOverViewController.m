@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
+//    self.finishScore.text = [NSString stringWithFormat:@"Score: %ld", _inheritScore];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,6 +39,30 @@
 
 -(IBAction)moveTitleView:(id)sender{
     [self performSegueWithIdentifier:@"toTitleView" sender:self];
+}
+
+-(IBAction)tweetView:(id)sender{
+    if (![SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter]) {
+        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"ツイートエラー"
+                                                        message:@"Twitterアカウントが設定されていません。"
+                                                       delegate:nil
+                                              cancelButtonTitle:nil
+                                              otherButtonTitles:@"OK", nil];
+        [alert show];
+        return;
+    }
+    
+    NSString* text = @"ﾁｮ～えきさいちんぐ！";
+    NSURL* URL = [NSURL URLWithString:@"【FishEat】URL~~~~~~~."];
+    NSData* imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"hogehoge"]];
+    SLComposeViewController *controller = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+    [controller setInitialText:text];
+    [controller addURL:URL];
+    [controller addImage:[[UIImage alloc] initWithData:imageData]];
+    controller.completionHandler =^(SLComposeViewControllerResult result){
+        [self dismissViewControllerAnimated:YES completion:nil];
+    };
+    [self presentViewController:controller animated:YES completion:nil];
 }
 
 @end

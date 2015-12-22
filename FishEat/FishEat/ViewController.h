@@ -8,12 +8,20 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreMotion/CoreMotion.h>
+#import "SEManager.h"
 
 @interface ViewController : UIViewController  {
 @private
     UIAccelerationValue speedX_;
     UIAccelerationValue speedY_;
+    
+    CALayer* _blinkLayer;
+    CAAnimation* _blinkAnimation;
+    
+    //次の画面へ渡す引数
+    NSInteger* _inheritScore;
 }
+@property (nonatomic) NSInteger* inheritScore;
 
 @property IBOutlet UILabel* xLabel;
 @property IBOutlet UILabel* yLabel;

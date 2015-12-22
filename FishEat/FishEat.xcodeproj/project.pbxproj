@@ -8,14 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		A304FACF1BFD656E009F8562 /* Sea01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A304FACE1BFD656E009F8562 /* Sea01.jpg */; };
-		A304FAD51BFD6ED2009F8562 /* fish0.png in Resources */ = {isa = PBXBuildFile; fileRef = A304FAD01BFD6ED2009F8562 /* fish0.png */; };
-		A304FAD61BFD6ED2009F8562 /* fish1.png in Resources */ = {isa = PBXBuildFile; fileRef = A304FAD11BFD6ED2009F8562 /* fish1.png */; };
-		A304FAD71BFD6ED2009F8562 /* fish2.png in Resources */ = {isa = PBXBuildFile; fileRef = A304FAD21BFD6ED2009F8562 /* fish2.png */; };
-		A304FAD81BFD6ED2009F8562 /* fish3.png in Resources */ = {isa = PBXBuildFile; fileRef = A304FAD31BFD6ED2009F8562 /* fish3.png */; };
 		A304FAD91BFD6ED2009F8562 /* plankton.png in Resources */ = {isa = PBXBuildFile; fileRef = A304FAD41BFD6ED2009F8562 /* plankton.png */; };
 		A304FADB1BFD7524009F8562 /* Enemy_bs.png in Resources */ = {isa = PBXBuildFile; fileRef = A304FADA1BFD7524009F8562 /* Enemy_bs.png */; };
 		A3275E331BF587770095C2B9 /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3275E321BF587770095C2B9 /* GameOverViewController.m */; };
+		A33ECA521C0FC5B200D8BBD3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33ECA511C0FC5B200D8BBD3 /* AudioToolbox.framework */; };
+		A33ECA551C0FC6CE00D8BBD3 /* water01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A33ECA541C0FC6CE00D8BBD3 /* water01.mp3 */; };
+		A33ECA571C0FC6D600D8BBD3 /* se01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A33ECA561C0FC6D600D8BBD3 /* se01.mp3 */; };
+		A33ECA591C0FCB9A00D8BBD3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33ECA581C0FCB9A00D8BBD3 /* AVFoundation.framework */; };
+		A33ECA5C1C0FCDE700D8BBD3 /* SEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A33ECA5B1C0FCDE700D8BBD3 /* SEManager.m */; };
+		A33ECA5E1C0FDFF200D8BBD3 /* bgm_01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A33ECA5D1C0FDFF200D8BBD3 /* bgm_01.mp3 */; };
+		A33ECA601C0FE2B700D8BBD3 /* bgm_boss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A33ECA5F1C0FE2B700D8BBD3 /* bgm_boss.mp3 */; };
+		A33ECA621C0FE81C00D8BBD3 /* water02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A33ECA611C0FE81C00D8BBD3 /* water02.mp3 */; };
+		A33ECA641C0FE85300D8BBD3 /* bgm_boss2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A33ECA631C0FE85300D8BBD3 /* bgm_boss2.mp3 */; };
+		A33ECA661C0FE85F00D8BBD3 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A33ECA651C0FE85F00D8BBD3 /* gameover.mp3 */; };
+		A33ECA681C0FE86E00D8BBD3 /* GameStart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A33ECA671C0FE86E00D8BBD3 /* GameStart.mp3 */; };
 		A36515821C05385100CACEBB /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36515811C05385100CACEBB /* TitleViewController.m */; };
+		A3A4FD991C2924050061264D /* fish0.gif in Resources */ = {isa = PBXBuildFile; fileRef = A3A4FD941C2924050061264D /* fish0.gif */; };
+		A3A4FD9A1C2924050061264D /* fish1.gif in Resources */ = {isa = PBXBuildFile; fileRef = A3A4FD951C2924050061264D /* fish1.gif */; };
+		A3A4FD9B1C2924050061264D /* fish2.gif in Resources */ = {isa = PBXBuildFile; fileRef = A3A4FD961C2924050061264D /* fish2.gif */; };
+		A3A4FD9C1C2924050061264D /* fish3.gif in Resources */ = {isa = PBXBuildFile; fileRef = A3A4FD971C2924050061264D /* fish3.gif */; };
+		A3A4FD9D1C2924050061264D /* fish4.gif in Resources */ = {isa = PBXBuildFile; fileRef = A3A4FD981C2924050061264D /* fish4.gif */; };
+		A3CF53181C1F98F100EF8567 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CF53171C1F98F100EF8567 /* Social.framework */; };
 		A3D567661BD7362600CD77F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D567651BD7362600CD77F2 /* UIKit.framework */; };
 		A3D567681BD7363600CD77F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D567671BD7363600CD77F2 /* Foundation.framework */; };
 		A3D5676A1BD7364400CD77F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D567691BD7364400CD77F2 /* CoreGraphics.framework */; };
@@ -54,16 +67,30 @@
 
 /* Begin PBXFileReference section */
 		A304FACE1BFD656E009F8562 /* Sea01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sea01.jpg; sourceTree = "<group>"; };
-		A304FAD01BFD6ED2009F8562 /* fish0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish0.png; sourceTree = "<group>"; };
-		A304FAD11BFD6ED2009F8562 /* fish1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish1.png; sourceTree = "<group>"; };
-		A304FAD21BFD6ED2009F8562 /* fish2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish2.png; sourceTree = "<group>"; };
-		A304FAD31BFD6ED2009F8562 /* fish3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish3.png; sourceTree = "<group>"; };
 		A304FAD41BFD6ED2009F8562 /* plankton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plankton.png; sourceTree = "<group>"; };
 		A304FADA1BFD7524009F8562 /* Enemy_bs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Enemy_bs.png; sourceTree = "<group>"; };
 		A3275E311BF587770095C2B9 /* GameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverViewController.h; sourceTree = "<group>"; };
 		A3275E321BF587770095C2B9 /* GameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverViewController.m; sourceTree = "<group>"; };
+		A33ECA511C0FC5B200D8BBD3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A33ECA541C0FC6CE00D8BBD3 /* water01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water01.mp3; sourceTree = "<group>"; };
+		A33ECA561C0FC6D600D8BBD3 /* se01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = se01.mp3; sourceTree = "<group>"; };
+		A33ECA581C0FCB9A00D8BBD3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A33ECA5A1C0FCDE700D8BBD3 /* SEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEManager.h; sourceTree = "<group>"; };
+		A33ECA5B1C0FCDE700D8BBD3 /* SEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEManager.m; sourceTree = "<group>"; };
+		A33ECA5D1C0FDFF200D8BBD3 /* bgm_01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm_01.mp3; sourceTree = "<group>"; };
+		A33ECA5F1C0FE2B700D8BBD3 /* bgm_boss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm_boss.mp3; sourceTree = "<group>"; };
+		A33ECA611C0FE81C00D8BBD3 /* water02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water02.mp3; sourceTree = "<group>"; };
+		A33ECA631C0FE85300D8BBD3 /* bgm_boss2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm_boss2.mp3; sourceTree = "<group>"; };
+		A33ECA651C0FE85F00D8BBD3 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		A33ECA671C0FE86E00D8BBD3 /* GameStart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameStart.mp3; sourceTree = "<group>"; };
 		A36515801C05385100CACEBB /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
 		A36515811C05385100CACEBB /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
+		A3A4FD941C2924050061264D /* fish0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fish0.gif; sourceTree = "<group>"; };
+		A3A4FD951C2924050061264D /* fish1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fish1.gif; sourceTree = "<group>"; };
+		A3A4FD961C2924050061264D /* fish2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fish2.gif; sourceTree = "<group>"; };
+		A3A4FD971C2924050061264D /* fish3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fish3.gif; sourceTree = "<group>"; };
+		A3A4FD981C2924050061264D /* fish4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fish4.gif; sourceTree = "<group>"; };
+		A3CF53171C1F98F100EF8567 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		A3D567651BD7362600CD77F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3D567671BD7363600CD77F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3D567691BD7364400CD77F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -97,6 +124,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3CF53181C1F98F100EF8567 /* Social.framework in Frameworks */,
+				A33ECA591C0FCB9A00D8BBD3 /* AVFoundation.framework in Frameworks */,
+				A33ECA521C0FC5B200D8BBD3 /* AudioToolbox.framework in Frameworks */,
 				A3D5676A1BD7364400CD77F2 /* CoreGraphics.framework in Frameworks */,
 				A3D567681BD7363600CD77F2 /* Foundation.framework in Frameworks */,
 				A3D567661BD7362600CD77F2 /* UIKit.framework in Frameworks */,
@@ -121,6 +151,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A33ECA531C0FC68D00D8BBD3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A33ECA5D1C0FDFF200D8BBD3 /* bgm_01.mp3 */,
+				A33ECA5F1C0FE2B700D8BBD3 /* bgm_boss.mp3 */,
+				A33ECA631C0FE85300D8BBD3 /* bgm_boss2.mp3 */,
+				A33ECA561C0FC6D600D8BBD3 /* se01.mp3 */,
+				A33ECA541C0FC6CE00D8BBD3 /* water01.mp3 */,
+				A33ECA611C0FE81C00D8BBD3 /* water02.mp3 */,
+				A33ECA671C0FE86E00D8BBD3 /* GameStart.mp3 */,
+				A33ECA651C0FE85F00D8BBD3 /* gameover.mp3 */,
+			);
+			name = Sounds;
+			path = FishEat;
+			sourceTree = "<group>";
+		};
 		A3E828231BCF81700021DAAE = {
 			isa = PBXGroup;
 			children = (
@@ -128,7 +174,8 @@
 				A3E828481BCF81700021DAAE /* FishEatTests */,
 				A3E828531BCF81700021DAAE /* FishEatUITests */,
 				A3E8282D1BCF81700021DAAE /* Products */,
-				A3E8286A1BCF84C70021DAAE /* images */,
+				A33ECA531C0FC68D00D8BBD3 /* Sounds */,
+				A3E8286A1BCF84C70021DAAE /* Images */,
 				A3E8286B1BCF85030021DAAE /* Framework */,
 			);
 			sourceTree = "<group>";
@@ -150,6 +197,8 @@
 				A3E828331BCF81700021DAAE /* AppDelegate.m */,
 				A36515801C05385100CACEBB /* TitleViewController.h */,
 				A36515811C05385100CACEBB /* TitleViewController.m */,
+				A33ECA5A1C0FCDE700D8BBD3 /* SEManager.h */,
+				A33ECA5B1C0FCDE700D8BBD3 /* SEManager.m */,
 				A3E828351BCF81700021DAAE /* ViewController.h */,
 				A3E828361BCF81700021DAAE /* ViewController.m */,
 				A3275E311BF587770095C2B9 /* GameOverViewController.h */,
@@ -195,24 +244,28 @@
 			path = FishEatUITests;
 			sourceTree = "<group>";
 		};
-		A3E8286A1BCF84C70021DAAE /* images */ = {
+		A3E8286A1BCF84C70021DAAE /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				A304FAD01BFD6ED2009F8562 /* fish0.png */,
-				A304FAD11BFD6ED2009F8562 /* fish1.png */,
-				A304FAD21BFD6ED2009F8562 /* fish2.png */,
-				A304FAD31BFD6ED2009F8562 /* fish3.png */,
+				A3A4FD941C2924050061264D /* fish0.gif */,
+				A3A4FD951C2924050061264D /* fish1.gif */,
+				A3A4FD961C2924050061264D /* fish2.gif */,
+				A3A4FD971C2924050061264D /* fish3.gif */,
+				A3A4FD981C2924050061264D /* fish4.gif */,
 				A304FAD41BFD6ED2009F8562 /* plankton.png */,
 				A304FACE1BFD656E009F8562 /* Sea01.jpg */,
 				A304FADA1BFD7524009F8562 /* Enemy_bs.png */,
 			);
-			name = images;
+			name = Images;
 			path = FishEat;
 			sourceTree = "<group>";
 		};
 		A3E8286B1BCF85030021DAAE /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				A3CF53171C1F98F100EF8567 /* Social.framework */,
+				A33ECA581C0FCB9A00D8BBD3 /* AVFoundation.framework */,
+				A33ECA511C0FC5B200D8BBD3 /* AudioToolbox.framework */,
 				A3D567691BD7364400CD77F2 /* CoreGraphics.framework */,
 				A3D567671BD7363600CD77F2 /* Foundation.framework */,
 				A3D567651BD7362600CD77F2 /* UIKit.framework */,
@@ -328,21 +381,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A33ECA601C0FE2B700D8BBD3 /* bgm_boss.mp3 in Resources */,
 				A3E8283F1BCF81700021DAAE /* LaunchScreen.storyboard in Resources */,
 				A304FADB1BFD7524009F8562 /* Enemy_bs.png in Resources */,
-				A304FAD81BFD6ED2009F8562 /* fish3.png in Resources */,
+				A33ECA641C0FE85300D8BBD3 /* bgm_boss2.mp3 in Resources */,
 				A304FAD91BFD6ED2009F8562 /* plankton.png in Resources */,
 				A3D567731BD7382700CD77F2 /* UIAccelerometerBallSample-Info.plist in Resources */,
+				A3A4FD991C2924050061264D /* fish0.gif in Resources */,
+				A3A4FD9A1C2924050061264D /* fish1.gif in Resources */,
+				A33ECA621C0FE81C00D8BBD3 /* water02.mp3 in Resources */,
+				A33ECA681C0FE86E00D8BBD3 /* GameStart.mp3 in Resources */,
 				A3D567721BD7382700CD77F2 /* Default@2x.png in Resources */,
-				A304FAD61BFD6ED2009F8562 /* fish1.png in Resources */,
-				A304FAD51BFD6ED2009F8562 /* fish0.png in Resources */,
+				A3A4FD9D1C2924050061264D /* fish4.gif in Resources */,
 				A3D567711BD7382700CD77F2 /* Default.png in Resources */,
+				A33ECA661C0FE85F00D8BBD3 /* gameover.mp3 in Resources */,
 				A304FACF1BFD656E009F8562 /* Sea01.jpg in Resources */,
+				A3A4FD9C1C2924050061264D /* fish3.gif in Resources */,
 				A3E8283C1BCF81700021DAAE /* Assets.xcassets in Resources */,
-				A304FAD71BFD6ED2009F8562 /* fish2.png in Resources */,
 				A3D567701BD7382700CD77F2 /* Default-568h@2x.png in Resources */,
+				A33ECA551C0FC6CE00D8BBD3 /* water01.mp3 in Resources */,
+				A3A4FD9B1C2924050061264D /* fish2.gif in Resources */,
 				A3D567751BD7383400CD77F2 /* InfoPlist.strings in Resources */,
 				A3E8283A1BCF81700021DAAE /* Main.storyboard in Resources */,
+				A33ECA5E1C0FDFF200D8BBD3 /* bgm_01.mp3 in Resources */,
+				A33ECA571C0FC6D600D8BBD3 /* se01.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +432,7 @@
 				A3275E331BF587770095C2B9 /* GameOverViewController.m in Sources */,
 				A3E828371BCF81700021DAAE /* ViewController.m in Sources */,
 				A36515821C05385100CACEBB /* TitleViewController.m in Sources */,
+				A33ECA5C1C0FCDE700D8BBD3 /* SEManager.m in Sources */,
 				A3E828341BCF81700021DAAE /* AppDelegate.m in Sources */,
 				A3E828311BCF81700021DAAE /* main.m in Sources */,
 			);

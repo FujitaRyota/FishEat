@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import "SEManager.h"
 
 @interface TitleViewController : UIViewController
 
 @property IBOutlet UIButton* GameStart;
+
 
 @end
